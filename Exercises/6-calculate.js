@@ -12,7 +12,7 @@ for (let i = 0; i < 10; i++) {
    const averaged = average(square(i), cube(i));
    results.push(averaged);
 }
-return results
+return results;
 }
 
 module.exports = { square, cube, average, calculate };

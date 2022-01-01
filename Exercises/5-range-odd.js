@@ -1,6 +1,7 @@
 'use strict';
 
 const rangeOdd = (start, end) => {
+    if (start > end) return [];
     const array = [];
     for (let i = 0; i <= end - start; i++) {
         const current = i + start;
